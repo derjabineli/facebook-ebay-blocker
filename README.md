@@ -9,5 +9,5 @@ This project is intended to be used as a Chrome Extension on your local machine 
    git clone https://github.com/derjabineli/facebook-ebay-blocker.git
    ```
 2. Navigate to Chrome Extensions Dashboard
-   chrome://extensions/
+   - chrome://extensions/
 3. Add cloned folder via _Load Unpacked_ button
