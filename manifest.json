@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook eBay Blocker",
+  "description": "Remove eBay listings from Facebook Marketplace.",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.facebook.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/marketplace/*"],
+      "js": ["marketplace.js"]
+    }
+  ]
+}
